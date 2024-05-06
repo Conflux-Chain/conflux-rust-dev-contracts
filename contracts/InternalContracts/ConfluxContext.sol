@@ -21,4 +21,6 @@ interface ConfluxContext {
      */
     function finalizedEpochNumber() external view returns (uint256);
 
+    function epochHash(uint256) external view returns (bytes32);
+
 }
