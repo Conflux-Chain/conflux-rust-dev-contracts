@@ -1,0 +1,92 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EventsTestContract",
+  "sourceName": "contracts/origin/EventsTestContract.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "by",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint32",
+          "name": "num",
+          "type": "uint32"
+        }
+      ],
+      "name": "Bar",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "by",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "data",
+          "type": "address"
+        }
+      ],
+      "name": "Constructed",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "by",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint32",
+          "name": "num",
+          "type": "uint32"
+        }
+      ],
+      "name": "Foo",
+      "type": "event"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "bar",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "foo",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50604080513380825291517fc822296d568499547c3a5b93a500428bab54ef8f6a481f352c7086f1daf4277f9181900360200190a2610194806100546000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c8063c29855781461003b578063febb0f7e14610045575b600080fd5b61004361004d565b005b610043610098565b6000805463ffffffff198116600163ffffffff9283160182161780835560405191169133917fcd1a1d6f2a6fcd6dda1c75db8e9f21efeb606a495fb1853780de541ff2d952909190a3565b6000805460405164010000000090910463ffffffff169133917fd5b87dbae18c7b2a6a1a8c74c534a3f4149039ef0a0b5ae920dd12c10ca5ea589190a36000805463ffffffff64010000000080830482166001018216810267ffffffff000000001990931692909217808455604051929004169133917fd5b87dbae18c7b2a6a1a8c74c534a3f4149039ef0a0b5ae920dd12c10ca5ea589190a36000805463ffffffff64010000000080830482166001019091160267ffffffff000000001990911617905556fea265627a7a723158204a05c7967db4f66d14f47a40bc41438c62c891800ceb7d5cd03d9e51f64048de64736f6c63430005110032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c8063c29855781461003b578063febb0f7e14610045575b600080fd5b61004361004d565b005b610043610098565b6000805463ffffffff198116600163ffffffff9283160182161780835560405191169133917fcd1a1d6f2a6fcd6dda1c75db8e9f21efeb606a495fb1853780de541ff2d952909190a3565b6000805460405164010000000090910463ffffffff169133917fd5b87dbae18c7b2a6a1a8c74c534a3f4149039ef0a0b5ae920dd12c10ca5ea589190a36000805463ffffffff64010000000080830482166001018216810267ffffffff000000001990931692909217808455604051929004169133917fd5b87dbae18c7b2a6a1a8c74c534a3f4149039ef0a0b5ae920dd12c10ca5ea589190a36000805463ffffffff64010000000080830482166001019091160267ffffffff000000001990911617905556fea265627a7a723158204a05c7967db4f66d14f47a40bc41438c62c891800ceb7d5cd03d9e51f64048de64736f6c63430005110032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
