@@ -1,0 +1,130 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EventsTestContract",
+  "sourceName": "contracts/origin/event.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "by",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint32",
+          "name": "num",
+          "type": "uint32"
+        }
+      ],
+      "name": "Called",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "by",
+          "type": "address"
+        }
+      ],
+      "name": "Constructed",
+      "type": "event"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "x",
+          "type": "bytes32"
+        }
+      ],
+      "name": "byte32oo",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "foo",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_x",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getSha256",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint32",
+          "name": "x",
+          "type": "uint32"
+        }
+      ],
+      "name": "goo",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "hoo",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060405133907e40d54d5e5b097202376b55bcbaaedd2ee468ce4496f1d30030c4e5308bf94d90600090a26102d88061004a6000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c806368ec22941461005c5780636b449fdc1461008b5780639672f1c2146100a8578063b17e2821146100c9578063c2985578146100ee575b600080fd5b6100796004803603602081101561007257600080fd5b50356100f6565b60408051918252519081900360200190f35b610079600480360360208110156100a157600080fd5b50356101a5565b6100b06101a8565b6040805163ffffffff9092168252519081900360200190f35b6100ec600480360360208110156100df57600080fd5b503563ffffffff166101b4565b005b6100ec610258565b6000600282604051602001808281526020019150506040516020818303038152906040526040518082805190602001908083835b602083106101495780518252601f19909201916020918201910161012a565b51815160209384036101000a60001901801990921691161790526040519190930194509192505080830381855afa158015610188573d6000803e3d6000fd5b5050506040513d602081101561019d57600080fd5b505192915050565b90565b60005463ffffffff1690565b808063ffffffff166101c46101a8565b63ffffffff16111561020c576040805162461bcd60e51b815260206004820152600c60248201526b78203c20636f756e7465722160a01b604482015290519081900360640190fd5b6000805463ffffffff19811663ffffffff918216850182161780835560405191169133917f05715e52fdfb51214edd7fb94911562f709f30c91679dfb4509e6eb14f600c109190a35050565b6000805463ffffffff198116600163ffffffff9283160182161780835560405191169133917f05715e52fdfb51214edd7fb94911562f709f30c91679dfb4509e6eb14f600c109190a356fea265627a7a723158202c408750d3126c9c9c5bb9feb12373bfc316ece5798d1e21b4e70eed1d2d42fb64736f6c63430005110032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c806368ec22941461005c5780636b449fdc1461008b5780639672f1c2146100a8578063b17e2821146100c9578063c2985578146100ee575b600080fd5b6100796004803603602081101561007257600080fd5b50356100f6565b60408051918252519081900360200190f35b610079600480360360208110156100a157600080fd5b50356101a5565b6100b06101a8565b6040805163ffffffff9092168252519081900360200190f35b6100ec600480360360208110156100df57600080fd5b503563ffffffff166101b4565b005b6100ec610258565b6000600282604051602001808281526020019150506040516020818303038152906040526040518082805190602001908083835b602083106101495780518252601f19909201916020918201910161012a565b51815160209384036101000a60001901801990921691161790526040519190930194509192505080830381855afa158015610188573d6000803e3d6000fd5b5050506040513d602081101561019d57600080fd5b505192915050565b90565b60005463ffffffff1690565b808063ffffffff166101c46101a8565b63ffffffff16111561020c576040805162461bcd60e51b815260206004820152600c60248201526b78203c20636f756e7465722160a01b604482015290519081900360640190fd5b6000805463ffffffff19811663ffffffff918216850182161780835560405191169133917f05715e52fdfb51214edd7fb94911562f709f30c91679dfb4509e6eb14f600c109190a35050565b6000805463ffffffff198116600163ffffffff9283160182161780835560405191169133917f05715e52fdfb51214edd7fb94911562f709f30c91679dfb4509e6eb14f600c109190a356fea265627a7a723158202c408750d3126c9c9c5bb9feb12373bfc316ece5798d1e21b4e70eed1d2d42fb64736f6c63430005110032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

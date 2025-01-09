@@ -1,0 +1,68 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "CrossSpaceEventTestEVMSide",
+  "sourceName": "contracts/origin/CrossSpaceEventTest.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "TestEvent",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "n",
+          "type": "uint256"
+        }
+      ],
+      "name": "emitEVM",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "n",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "times",
+          "type": "uint256"
+        }
+      ],
+      "name": "emitMultipleEVM",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getBlockNumber",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610173806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806342cbb15c1461004657806365130378146100595780639c960df61461006e575b600080fd5b4360405190815260200160405180910390f35b61006c610067366004610102565b610081565b005b61006c61007c36600461011b565b6100b7565b6040518181527f1440c4dd67b4344ea1905ec0318995133b550f168b4ee959a0da6b503d7d24149060200160405180910390a150565b60005b818110156100fd576040518381527f1440c4dd67b4344ea1905ec0318995133b550f168b4ee959a0da6b503d7d24149060200160405180910390a16001016100ba565b505050565b60006020828403121561011457600080fd5b5035919050565b6000806040838503121561012e57600080fd5b5050803592602090910135915056fea2646970667358221220a84262abbb439e255a97275114fb75d31bbbb8b7e765e6dafa9ae7d770694c4e64736f6c63430008160033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806342cbb15c1461004657806365130378146100595780639c960df61461006e575b600080fd5b4360405190815260200160405180910390f35b61006c610067366004610102565b610081565b005b61006c61007c36600461011b565b6100b7565b6040518181527f1440c4dd67b4344ea1905ec0318995133b550f168b4ee959a0da6b503d7d24149060200160405180910390a150565b60005b818110156100fd576040518381527f1440c4dd67b4344ea1905ec0318995133b550f168b4ee959a0da6b503d7d24149060200160405180910390a16001016100ba565b505050565b60006020828403121561011457600080fd5b5035919050565b6000806040838503121561012e57600080fd5b5050803592602090910135915056fea2646970667358221220a84262abbb439e255a97275114fb75d31bbbb8b7e765e6dafa9ae7d770694c4e64736f6c63430008160033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
