@@ -6,6 +6,10 @@ import "../InternalContracts/CrossSpaceCall.sol";
 contract CrossSpaceTraceTestConfluxSide {
     CrossSpaceCall constant CROSS_SPACE = CrossSpaceCall(0x0888000000000000000000000000000000000006);
 
+    function callEVMEmpty(bytes20 addr) external {
+        CROSS_SPACE.callEVM(addr, abi.encodeCall(CrossSpaceTraceTestEVMSide.callEmpty,()));
+    }
+
     function callEVM(bytes20 addr, uint256 depth) external {
         CROSS_SPACE.callEVM(addr, abi.encodeCall(CrossSpaceTraceTestEVMSide.call, depth));
     }
@@ -49,6 +53,9 @@ contract CrossSpaceTraceTestConfluxSide {
 }
 
 contract CrossSpaceTraceTestEVMSide {
+    function callEmpty() external {
+    }
+
     function call(uint256 depth) external returns (uint256) {
         if (depth == 0) return 0;
         this.call(depth - 1);
